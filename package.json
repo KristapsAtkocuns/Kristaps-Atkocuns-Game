@@ -1,0 +1,15 @@
+{
+  "name": "bernuli",
+  "version": "1.0.0",
+  "description": "Kristaps Atkocuns 2048 Game",
+  "default": "init.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "K. Atkocuns",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
